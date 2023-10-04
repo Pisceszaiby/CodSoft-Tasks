@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+
+
+
+.container-fluid {
+    padding: 3% 7%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.png);
+    background-position: centre;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    margin: 20px;
+    width: 90%;
+    max-width: 340px;
+    color: white;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 40px 30px rgba(0, 0, 0, 0.1);
+    background-filter: blur(5px);
+}
+
+.card1 img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+
+.card1 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card1 p {
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+
+.card1 .links img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px, 15px;
+    transition: background 0.5s;
+}
+
+.card1 .links img:hover {
+    background: #ff01cf;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 550;
+    background: #fff;
+    color: #ff01cf;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    transition: background 0.5s;
+}
+
+
+
+.card {
+    margin: 10px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 20px;
+
+
+}
+
+.card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.card:hover img {
+    background-image: url("https://media.giphy.com/media/Z4K8wAKa15UZJiJhJ0/giphy.gif")
+}
+
+.card .btn {
+    margin: 3px;
+    border: none;
+}
+
+.btn:hover {
+    background: #ff01cf;
+    color: #fff;
+}
+
+.card-title {
+    color: #ffffff;
+    padding: 0%;
+}
+
+.card-text {
+    color: #ba99cb;
+    padding: 0%;
+}
+
+.title-heading {
+
+    background: -webkit-linear-gradient(-45deg, #c7bbd4, #8f46b3, #b746d4, #bf06a0);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 20px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+}
+
+#about {
+    background: url(back.png);
+}
+
+#about1 h1 {
+    text-align: center;
+}
+
+.big-heading {
+
+    margin-top: 20px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: centre;
+}
+
+.section1 {
+
+    background: linear-gradient(-45deg, #17012e, #4c0271, #7c1695, #bf06a0);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#title {
+    text-align: left;
+    position: relative;
+
+}
+
+
+card {
+    margin: 5px;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+
+}
+
+.big-desc {
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.title-img {}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 18px;
+}
+
+
+
+
+.card1 h1 {
+    color: #17012e;
+}
+
+.navbar-brand {
+    font-family: 'Cookie', cursive;
+
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+.skill-logo {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+
+@media (max-width:1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-heading {
+        text-align: center;
+    }
+
+    .container {
+        height: 200vh;
+    }
+
+    .big-desc {
+        text-align: center;
+    }
+
+
+
+    ;
+}
+
+.section2 {
+    background-color: #ede8f0;
+
+}
+
+#footer {
+    color: #ff01cf;
+    text-align: center;
+    padding: 50px 0;
+
+
+}
+
+#footer p {
+    margin-top: 20px;
+
+}
+
+#footer a {
+    color: #ff01cf;
+}
+
+#footer i {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+#footer a:hover {
+    color: #ba99cb;
+}
+
+/* dark purple: #440067
+magenta: #910079
+mix of both:#6e0b87 
+bluish dark purple:#210044 */
